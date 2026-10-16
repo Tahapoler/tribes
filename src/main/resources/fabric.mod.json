@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "tribes",
+  "version": "${version}",
+  "name": "Living Tribes",
+  "description": "Tribes spread across the map, farm, trade, wage war and grow.",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.tribesmod.TribesMod"],
+    "client": ["com.tribesmod.client.TribesClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
